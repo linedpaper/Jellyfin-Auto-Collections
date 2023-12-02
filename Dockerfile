@@ -2,7 +2,7 @@
 FROM python:3.8
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /config
 
 # Clone the Jellyfin-Auto-Collections repository
 RUN git clone https://github.com/linedpaper/Jellyfin-Auto-Collections.git .
